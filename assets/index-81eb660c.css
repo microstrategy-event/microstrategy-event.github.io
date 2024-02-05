@@ -1,0 +1,133 @@
+@media (max-width: 1250px) {
+  .participate-title {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1200px) {
+  .top {
+    height: 500px;
+  }
+  .top-ceo {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+  }
+  .participate-container,
+  .calculator-container,
+  .instruction-container,
+  .rules-container {
+    max-width: 600px;
+    margin: 40px auto 0;
+  }
+  .participate-container,
+  .rules-container,
+  .calculator-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .instruction-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+@media (max-width: 1100px) {
+  .top-ceo {
+    display: none;
+  }
+  .top-container {
+    justify-content: center;
+  }
+  .top-text {
+    text-align: center;
+  }
+  .top-subtitle {
+    margin: 15px auto 30px;
+  }
+  .top-buttons {
+    justify-content: center;
+  }
+}
+@media (max-width: 900px) {
+  .navigation-nav {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .top {
+    height: auto;
+    margin: 50px 0 100px;
+  }
+  .top-container {
+    max-width: 100%;
+  }
+}
+@media (max-width: 650px) {
+  .top-title {
+    font-size: 38px;
+  }
+  .top-subtitle {
+    font-size: 16px;
+  }
+  .participate-item {
+    flex-direction: column;
+    justify-content: center;
+    }
+  .participate-address,
+  .participate-footer {
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+  }
+  .participate-address p {
+    font-size: 13px;
+    }
+  .participate-qr {
+    margin: 0 auto;
+  }
+  .participate-data {
+    margin: 10px 0 0;
+  }
+  .calculator-label {
+    font-size: 16px;
+  }
+  .calculator-counter span {
+    font-size: 24px;
+  }
+  .calculator-delimiter {
+    margin: 0 15px 15px;
+  }
+}
+@media (max-width: 600px) {
+  .calculator-block {
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+  }
+  .calculator-item {
+    width: 100%;
+  }
+  .calculator-item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .calculator-label {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+ 
+  .calculator-delimiter {
+    display: none;
+  }
+  .calculator-counter {
+    height: auto;
+  }
+  .calculator-counter svg {
+    min-width: 30px;
+    max-width: 30px;
+  }
+  .calculator-counter span {
+    font-size: 28px;
+    max-width: none;
+  }
+}
+

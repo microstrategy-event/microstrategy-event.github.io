@@ -1,0 +1,27 @@
+.claimed_btn {
+    background: linear-gradient(30deg, #8e8e8e 35%, #404040 73%);
+    position: relative;
+    padding: 5px 15px;
+    font-family: 'Mulish';
+    font-weight: 500;
+    color: #cdcdcd;
+    border: 2px solid #ea8b1900;
+    border-radius: 8px;
+    transition: all .3s ease-in-out;
+    margin-top: 0px;
+    left: 5px;
+}
+
+.claimed_box {
+  width: 80px;
+  height: 30px;
+  float: left;
+  transition: .5s linear;
+  position: relative;
+  display: block;
+  padding: 5px;
+  margin: -2px -5.5px;
+  background: transparent;
+  /* text-transform: uppercase; */
+  font-weight: bold;
+}
